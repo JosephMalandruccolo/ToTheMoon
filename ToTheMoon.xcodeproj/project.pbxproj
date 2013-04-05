@@ -13,15 +13,15 @@
 		3F79D83F170EB2D900118D99 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D83E170EB2D900118D99 /* Default-Landscape@2x.png */; };
 		3F79D842170EB4BD00118D99 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D840170EB4BD00118D99 /* Default-Portrait.png */; };
 		3F79D843170EB4BD00118D99 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D841170EB4BD00118D99 /* Default-Portrait@2x.png */; };
+		3F8462B5170F73BD00CD6BF2 /* HeroPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8462B3170F73BD00CD6BF2 /* HeroPageViewController.m */; };
+		3F8462B6170F73BD00CD6BF2 /* HeroPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8462B4170F73BD00CD6BF2 /* HeroPageViewController.xib */; };
+		3F8462B9170F7D8A00CD6BF2 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8462B8170F7D8A00CD6BF2 /* StoryViewController.m */; };
 		3FA70C65170E8B010065F561 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA70C64170E8B010065F561 /* UIKit.framework */; };
 		3FA70C67170E8B010065F561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA70C66170E8B010065F561 /* Foundation.framework */; };
 		3FA70C69170E8B010065F561 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA70C68170E8B010065F561 /* CoreGraphics.framework */; };
 		3FA70C6F170E8B010065F561 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FA70C6D170E8B010065F561 /* InfoPlist.strings */; };
 		3FA70C71170E8B010065F561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA70C70170E8B010065F561 /* main.m */; };
 		3FA70C75170E8B010065F561 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA70C74170E8B010065F561 /* AppDelegate.m */; };
-		3FA70C7E170E8B010065F561 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA70C7D170E8B010065F561 /* RootViewController.m */; };
-		3FA70C81170E8B010065F561 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA70C80170E8B010065F561 /* DataViewController.m */; };
-		3FA70C84170E8B010065F561 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA70C83170E8B010065F561 /* ModelController.m */; };
 		3FA70C87170E8B010065F561 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA70C85170E8B010065F561 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +32,11 @@
 		3F79D83E170EB2D900118D99 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
 		3F79D840170EB4BD00118D99 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		3F79D841170EB4BD00118D99 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		3F8462B2170F73BD00CD6BF2 /* HeroPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroPageViewController.h; sourceTree = "<group>"; };
+		3F8462B3170F73BD00CD6BF2 /* HeroPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroPageViewController.m; sourceTree = "<group>"; };
+		3F8462B4170F73BD00CD6BF2 /* HeroPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroPageViewController.xib; sourceTree = "<group>"; };
+		3F8462B7170F7D8A00CD6BF2 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		3F8462B8170F7D8A00CD6BF2 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
 		3FA70C61170E8B010065F561 /* ToTheMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToTheMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA70C64170E8B010065F561 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FA70C66170E8B010065F561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,12 +47,6 @@
 		3FA70C72170E8B010065F561 /* ToTheMoon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToTheMoon-Prefix.pch"; sourceTree = "<group>"; };
 		3FA70C73170E8B010065F561 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FA70C74170E8B010065F561 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FA70C7C170E8B010065F561 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		3FA70C7D170E8B010065F561 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		3FA70C7F170E8B010065F561 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		3FA70C80170E8B010065F561 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		3FA70C82170E8B010065F561 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		3FA70C83170E8B010065F561 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		3FA70C86170E8B010065F561 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +64,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8462AA170F715D00CD6BF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3F8462AB170F716B00CD6BF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3F8462AC170F717000CD6BF2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F8462B2170F73BD00CD6BF2 /* HeroPageViewController.h */,
+				3F8462B3170F73BD00CD6BF2 /* HeroPageViewController.m */,
+				3F8462B4170F73BD00CD6BF2 /* HeroPageViewController.xib */,
+				3F8462B7170F7D8A00CD6BF2 /* StoryViewController.h */,
+				3F8462B8170F7D8A00CD6BF2 /* StoryViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		3FA70C58170E8B010065F561 = {
 			isa = PBXGroup;
 			children = (
@@ -97,14 +122,11 @@
 		3FA70C6A170E8B010065F561 /* ToTheMoon */ = {
 			isa = PBXGroup;
 			children = (
+				3F8462AC170F717000CD6BF2 /* Controller */,
+				3F8462AB170F716B00CD6BF2 /* View */,
+				3F8462AA170F715D00CD6BF2 /* Model */,
 				3FA70C73170E8B010065F561 /* AppDelegate.h */,
 				3FA70C74170E8B010065F561 /* AppDelegate.m */,
-				3FA70C7C170E8B010065F561 /* RootViewController.h */,
-				3FA70C7D170E8B010065F561 /* RootViewController.m */,
-				3FA70C7F170E8B010065F561 /* DataViewController.h */,
-				3FA70C80170E8B010065F561 /* DataViewController.m */,
-				3FA70C82170E8B010065F561 /* ModelController.h */,
-				3FA70C83170E8B010065F561 /* ModelController.m */,
 				3FA70C85170E8B010065F561 /* MainStoryboard.storyboard */,
 				3FA70C6B170E8B010065F561 /* Supporting Files */,
 			);
@@ -185,6 +207,7 @@
 				3F79D83F170EB2D900118D99 /* Default-Landscape@2x.png in Resources */,
 				3F79D842170EB4BD00118D99 /* Default-Portrait.png in Resources */,
 				3F79D843170EB4BD00118D99 /* Default-Portrait@2x.png in Resources */,
+				3F8462B6170F73BD00CD6BF2 /* HeroPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,9 +220,8 @@
 			files = (
 				3FA70C71170E8B010065F561 /* main.m in Sources */,
 				3FA70C75170E8B010065F561 /* AppDelegate.m in Sources */,
-				3FA70C7E170E8B010065F561 /* RootViewController.m in Sources */,
-				3FA70C81170E8B010065F561 /* DataViewController.m in Sources */,
-				3FA70C84170E8B010065F561 /* ModelController.m in Sources */,
+				3F8462B5170F73BD00CD6BF2 /* HeroPageViewController.m in Sources */,
+				3F8462B9170F7D8A00CD6BF2 /* StoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
