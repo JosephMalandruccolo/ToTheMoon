@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HeroPageViewController.h"
 
-@interface StoryViewController : UIViewController <UIPageViewControllerDataSource>
-{
-    
-}
+@interface StoryViewController : UIViewController
+
+@property (strong, nonatomic) NSMutableArray *storyData;
+
 
 @end

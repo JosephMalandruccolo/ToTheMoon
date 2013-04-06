@@ -35,16 +35,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    
-    //set the properties of the HeroPageViewController
-    self.progress.text = @"Progress will go here";
-    self.idea.text = @"The page's main idea will go here";
-    self.storyText.text = @"The story copy will go here";
-    //need to set the image
-    
-}
 
 @end
