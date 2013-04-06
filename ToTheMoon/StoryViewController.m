@@ -25,6 +25,27 @@
 
     [self loadStory];
     
+    
+    NSDictionary *options = [NSDictionary dictionaryWithObject:[NSNumber numberWithInteger:UIPageViewControllerSpineLocationMin] forKey:UIPageViewControllerOptionSpineLocationKey];
+    self.pageVC = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:options];
+    
+    self.pageVC.dataSource = self;
+    [[self.pageVC view] setFrame:[[self view] bounds]];
+    
+    HeroPageViewController *initialVC = [self viewControllerAtIndex:0];
+    
+    NSLog(@"array with object");
+    NSArray *vc = [NSArray arrayWithObject:initialVC];
+    
+    NSLog(@"setting viewControllers");
+    [self.pageVC setViewControllers:vc direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
+    
+    NSLog(@"adding views");
+    [self addChildViewController:self.pageVC];
+    [[self view] addSubview:[self.pageVC view]];
+    [self.pageVC didMoveToParentViewController:self];
+    
+    
 }
 
 
@@ -91,7 +112,10 @@
 //####################################################################################
 - (HeroPageViewController *)viewControllerAtIndex:(NSUInteger)index
 {
-    if ( (index < [self.storyData count]) || (index >= [self.storyData count])) {
+    
+    NSLog(@"calling viewControllerAtIndex");
+    if ((index >= [self.storyData count])) {
+        NSLog(@"viewControllerAtIndex returning nil");
         return nil;
     }
     
