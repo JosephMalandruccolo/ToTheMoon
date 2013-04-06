@@ -35,5 +35,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    NSLog(@"HeroPageViewController viewWillAppear");
+    self.progress.text = self.model.sequence;
+    self.idea.text = self.model.header;
+    self.storyText.text = self.model.body;
+    
+}
+
 
 @end
