@@ -1,0 +1,16 @@
+<pages>
+	<page>
+		<sequence>1</sequence>
+		<viewControllerClass>HeroPageViewController</viewControllerClass>
+		<header>Dreaming of the Moon</header>
+		<body>The date is July 16, 1969. Humans have not yet walked on the moon. This is the story of how we put the first man on the moon and returned him safely to Earth.</body>
+		<heroFilename>test.png</heroFilename>
+	</page>
+	<page>
+		<sequence>2</sequence>
+		<viewControllerClass>HeroPageViewController</viewControllerClass>
+		<header>Countdown</header>
+		<body>To leave the Earth and get to space, the astronauts used a powerful rocket called the "Saturn Five".</body>
+		<heroFilename>test2.png</heroFilename>
+	</page>
+</pages>
