@@ -1,4 +1,12 @@
 <pages>
+    <page>
+		<sequence>0</sequence>
+		<viewControllerClass>CoverPageViewController</viewControllerClass>
+		<header>To The Moon</header>
+		<body>The story of Apollo 11</body>
+        <backgroundFilename>Default</backgroundFilename>
+        <authorCredit>Joe Malandruccolo</authorCredit>
+	</page>
 	<page>
 		<sequence>1</sequence>
 		<viewControllerClass>HeroPageViewController</viewControllerClass>

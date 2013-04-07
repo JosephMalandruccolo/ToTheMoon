@@ -32,7 +32,7 @@
     self.pageVC.dataSource = self;
     [[self.pageVC view] setFrame:[[self view] bounds]];
     
-    HeroPageViewController *initialVC = [self viewControllerAtIndex:0];
+    PageViewController *initialVC = [self viewControllerAtIndex:0];
     
     NSLog(@"array with object");
     NSArray *vc = [NSArray arrayWithObject:initialVC];
@@ -99,9 +99,12 @@
 // *   @abstract            returns the index of a given HeroPageViewController
 // *   @description
 //####################################################################################
-- (NSUInteger)indexOfViewController:(HeroPageViewController *)viewController
+- (NSUInteger)indexOfViewController:(PageViewController *)viewController
 {
+    NSLog(@"calling indexOfViewController");
     return [self.storyData indexOfObject:viewController.model];
+
+    
 }
 
 
@@ -110,7 +113,7 @@
 // *   @abstract            returns the proper view controller for a requested index
 // *   @description
 //####################################################################################
-- (HeroPageViewController *)viewControllerAtIndex:(NSUInteger)index
+- (PageViewController *)viewControllerAtIndex:(NSUInteger)index
 {
     
     NSLog(@"calling viewControllerAtIndex");
@@ -120,10 +123,21 @@
     }
     
     //instantiate the view controller to provide and feed it the appropriate model data
-    HeroPageViewController *dataSourceViewController = [[HeroPageViewController alloc] initWithNibName:@"HeroPageViewController" bundle:nil];
-    dataSourceViewController.model = [self.storyData objectAtIndex:index];
+    //choose the Type of PageViewController to produce, based on the self.storyData.viewControllerClass
+    NSString *viewControllerClass = [[self.storyData objectAtIndex:index] viewControllerClass];
     
-    return dataSourceViewController;
+    
+    if ([viewControllerClass isEqualToString:@"CoverPageViewController"]) {
+        CoverPageViewController *dataSourceViewController = [[CoverPageViewController alloc] initWithNibName:@"CoverPageViewController" bundle:nil];
+        dataSourceViewController.model = [self.storyData objectAtIndex:index];
+        return dataSourceViewController;
+    }
+    else if ([viewControllerClass isEqualToString:@"HeroPageViewController"]) {
+        HeroPageViewController *dataSourceViewController = [[HeroPageViewController alloc] initWithNibName:@"HeroPageViewController" bundle:nil];
+        dataSourceViewController.model = [self.storyData objectAtIndex:index];
+        return dataSourceViewController;
+    }
+    else return nil;
     
 }
 
@@ -132,7 +146,9 @@
 #pragma mark - UIPageViewControllerDataSource delegate methods
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
 {
-    NSUInteger index = [self indexOfViewController:(HeroPageViewController*)viewController];
+    
+    NSLog(@"Calling viewControllerBeforeViewController");
+    NSUInteger index = [self indexOfViewController:(PageViewController*)viewController];
     
     if ((index == 0) || (index == NSNotFound)) {
         return nil;
@@ -146,18 +162,32 @@
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
 {
-    NSUInteger index = [self indexOfViewController:(HeroPageViewController*)viewController];
     
-    if (index == NSNotFound) {
+    NSLog(@"Calling viewControllerAfterViewController");
+    if ([viewController isKindOfClass:[PageViewController class]]) {
+        
+        NSLog(@"vcavc enters first if statement");
+        PageViewController *pvc = (PageViewController*)viewController;
+        NSUInteger index = [self indexOfViewController:pvc];
+        
+        if (index == NSNotFound) {
+            NSLog(@"vcavc if - NSNotfound");
+            return nil;
+        }
+        
+        index++;
+        if (index == [self.storyData count]) {
+            NSLog(@"index equals storyData count");
+            return nil;
+        }
+        
+        return [self viewControllerAtIndex:index];
+    }
+    else {
+        NSLog(@"vcavc does not enter if statement");
         return nil;
     }
     
-    index++;
-    if (index == [self.storyData count]) {
-        return nil;
-    }
-    
-    return [self viewControllerAtIndex:index];
 }
 
 

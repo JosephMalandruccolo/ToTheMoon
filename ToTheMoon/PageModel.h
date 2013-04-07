@@ -10,11 +10,18 @@
 
 @interface PageModel : NSObject 
 
+//...PageViewController specific properties
 @property (strong, nonatomic) NSString *sequence;
 @property (strong, nonatomic) NSString *viewControllerClass;    //this breaks the MVC boundary but is preferable to a massive set of if-statements
 @property (strong, nonatomic) NSString *header;
 @property (strong, nonatomic) NSString *body;
-@property (strong, nonatomic) NSString *heroFilename;
 @property (strong, nonatomic) NSString *backgroundFilename;
+
+//HeroPageViewController specific properties
+@property (strong, nonatomic) NSString *heroFilename;
+
+
+//CoverPageViewController specific properties
+@property (strong, nonatomic) NSString *authorCredit;
 
 @end
