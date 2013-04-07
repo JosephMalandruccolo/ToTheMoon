@@ -4,7 +4,7 @@
 		<viewControllerClass>HeroPageViewController</viewControllerClass>
 		<header>Dreaming of the Moon</header>
 		<body>The date is July 16, 1969. Humans have not yet walked on the moon. This is the story of how we put the first man on the moon and returned him safely to Earth.</body>
-		<heroFilename>test.png</heroFilename>
+		<heroFilename>page1_hero</heroFilename>
 	</page>
 	<page>
 		<sequence>2</sequence>

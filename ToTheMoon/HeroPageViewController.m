@@ -41,7 +41,8 @@
     self.progress.text = self.model.sequence;
     self.idea.text = self.model.header;
     self.storyText.text = self.model.body;
-    
+    self.heroView.image = [UIImage imageNamed:self.model.heroFilename];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"retina_wood"]];
 }
 
 
