@@ -35,4 +35,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    NSLog(@"CoverPageViewController viewWillAppear");
+    UIColor *textColor = [UIColor whiteColor];
+    
+    
+    self.storyTitle.text = self.model.header;
+    self.storyTitle.textColor = textColor;
+    
+    self.storySubtitle.text = self.model.body;
+    self.storySubtitle.textColor = textColor;
+    
+    self.author.text = self.model.authorCredit;
+    self.author.textColor = textColor;
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:self.model.backgroundFilename]];
+}
+
 @end

@@ -4,7 +4,7 @@
 		<viewControllerClass>CoverPageViewController</viewControllerClass>
 		<header>To The Moon</header>
 		<body>The story of Apollo 11</body>
-        <backgroundFilename>Default</backgroundFilename>
+        <backgroundFilename>Default-Portrait</backgroundFilename>
         <authorCredit>Joe Malandruccolo</authorCredit>
 	</page>
 	<page>

@@ -11,5 +11,8 @@
 
 @interface CoverPageViewController : PageViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *storyTitle;
+@property (weak, nonatomic) IBOutlet UILabel *storySubtitle;
+@property (weak, nonatomic) IBOutlet UILabel *author;
 
 @end

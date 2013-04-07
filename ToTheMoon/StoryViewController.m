@@ -28,23 +28,16 @@
     
     NSDictionary *options = [NSDictionary dictionaryWithObject:[NSNumber numberWithInteger:UIPageViewControllerSpineLocationMin] forKey:UIPageViewControllerOptionSpineLocationKey];
     self.pageVC = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:options];
-    
     self.pageVC.dataSource = self;
     [[self.pageVC view] setFrame:[[self view] bounds]];
     
     PageViewController *initialVC = [self viewControllerAtIndex:0];
-    
-    NSLog(@"array with object");
     NSArray *vc = [NSArray arrayWithObject:initialVC];
-    
-    NSLog(@"setting viewControllers");
     [self.pageVC setViewControllers:vc direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
     
-    NSLog(@"adding views");
     [self addChildViewController:self.pageVC];
     [[self view] addSubview:[self.pageVC view]];
     [self.pageVC didMoveToParentViewController:self];
-    
     
 }
 
@@ -96,7 +89,7 @@
 
 
 //####################################################################################
-// *   @abstract            returns the index of a given HeroPageViewController
+// *   @abstract            returns the index of a given PageViewController
 // *   @description
 //####################################################################################
 - (NSUInteger)indexOfViewController:(PageViewController *)viewController
@@ -110,7 +103,7 @@
 
 
 //####################################################################################
-// *   @abstract            returns the proper view controller for a requested index
+// *   @abstract            returns the proper PageViewController for a requested index
 // *   @description
 //####################################################################################
 - (PageViewController *)viewControllerAtIndex:(NSUInteger)index
@@ -118,12 +111,11 @@
     
     NSLog(@"calling viewControllerAtIndex");
     if ((index >= [self.storyData count])) {
-        NSLog(@"viewControllerAtIndex returning nil");
         return nil;
     }
     
     //instantiate the view controller to provide and feed it the appropriate model data
-    //choose the Type of PageViewController to produce, based on the self.storyData.viewControllerClass
+    //choose the Type of PageViewController to produce, based on the self.storyData.viewControllerClass, this is an intentional breach of MVC
     NSString *viewControllerClass = [[self.storyData objectAtIndex:index] viewControllerClass];
     
     
@@ -166,31 +158,25 @@
     NSLog(@"Calling viewControllerAfterViewController");
     if ([viewController isKindOfClass:[PageViewController class]]) {
         
-        NSLog(@"vcavc enters first if statement");
         PageViewController *pvc = (PageViewController*)viewController;
         NSUInteger index = [self indexOfViewController:pvc];
         
         if (index == NSNotFound) {
-            NSLog(@"vcavc if - NSNotfound");
             return nil;
         }
         
         index++;
         if (index == [self.storyData count]) {
-            NSLog(@"index equals storyData count");
             return nil;
         }
         
         return [self viewControllerAtIndex:index];
     }
     else {
-        NSLog(@"vcavc does not enter if statement");
         return nil;
     }
     
 }
-
-
 
 
 @end
