@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *idea;
 @property (weak, nonatomic) IBOutlet UILabel *storyText;
 @property (weak, nonatomic) IBOutlet UIImageView *heroView;
+@property (weak, nonatomic) IBOutlet UILabel *heroCaption;
 
 
 

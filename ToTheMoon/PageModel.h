@@ -19,6 +19,7 @@
 
 //HeroPageViewController specific properties
 @property (strong, nonatomic) NSString *heroFilename;
+@property (strong, nonatomic) NSString *heroCaption;
 
 
 //CoverPageViewController specific properties
