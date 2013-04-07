@@ -15,5 +15,6 @@
 @property (strong, nonatomic) NSString *header;
 @property (strong, nonatomic) NSString *body;
 @property (strong, nonatomic) NSString *heroFilename;
+@property (strong, nonatomic) NSString *backgroundFilename;
 
 @end
