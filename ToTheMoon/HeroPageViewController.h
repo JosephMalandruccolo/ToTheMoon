@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "PageModel.h"
+#import "PageViewController.h"
 
-@interface HeroPageViewController : UIViewController
+@interface HeroPageViewController : PageViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *progress;
 @property (weak, nonatomic) IBOutlet UILabel *idea;
@@ -17,6 +18,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *heroView;
 
 
-@property (strong, nonatomic) PageModel *model;
+
 
 @end

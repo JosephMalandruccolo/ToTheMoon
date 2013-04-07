@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PageViewController.h"
 #import "HeroPageViewController.h"
+#import "CoverPageViewController.h"
+
+
 
 @interface StoryViewController : UIViewController <UIPageViewControllerDataSource>
 

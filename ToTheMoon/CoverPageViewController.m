@@ -1,18 +1,18 @@
 //
-//  HeroPageViewController.m
+//  CoverPageViewController.m
 //  ToTheMoon
 //
-//  Created by Joseph Malandruccolo on 4/5/13.
+//  Created by Joseph Malandruccolo on 4/7/13.
 //  Copyright (c) 2013 Joseph Malandruccolo. All rights reserved.
 //
 
-#import "HeroPageViewController.h"
+#import "CoverPageViewController.h"
 
-@interface HeroPageViewController ()
+@interface CoverPageViewController ()
 
 @end
 
-@implementation HeroPageViewController
+@implementation CoverPageViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,13 +37,20 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    NSLog(@"HeroPageViewController viewWillAppear");
-    self.progress.text = self.model.sequence;
-    self.idea.text = self.model.header;
-    self.storyText.text = self.model.body;
-    self.heroView.image = [UIImage imageNamed:self.model.heroFilename];
+    NSLog(@"CoverPageViewController viewWillAppear");
+    UIColor *textColor = [UIColor whiteColor];
+    
+    
+    self.storyTitle.text = self.model.header;
+    self.storyTitle.textColor = textColor;
+    
+    self.storySubtitle.text = self.model.body;
+    self.storySubtitle.textColor = textColor;
+    
+    self.author.text = self.model.authorCredit;
+    self.author.textColor = textColor;
+    
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:self.model.backgroundFilename]];
 }
-
 
 @end

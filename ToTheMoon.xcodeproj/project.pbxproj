@@ -21,8 +21,13 @@
 		3F8462C4170FB88200CD6BF2 /* storyContents.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F8462C3170FB88200CD6BF2 /* storyContents.xml */; };
 		3FA567771711CE4A004A75D3 /* page1_hero.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA567751711CE4A004A75D3 /* page1_hero.png */; };
 		3FA567781711CE4A004A75D3 /* page1_hero@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA567761711CE4A004A75D3 /* page1_hero@2x.png */; };
-		3FA5677B1711D1A5004A75D3 /* retina_wood_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA567791711D1A5004A75D3 /* retina_wood_@2X.png */; };
 		3FA5677C1711D1A5004A75D3 /* retina_wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA5677A1711D1A5004A75D3 /* retina_wood.png */; };
+		3FA5677E1711E7E0004A75D3 /* retina_wood@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA5677D1711E7E0004A75D3 /* retina_wood@2X.png */; };
+		3FA567811711E88F004A75D3 /* starring.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA5677F1711E88F004A75D3 /* starring.png */; };
+		3FA567821711E88F004A75D3 /* starring@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA567801711E88F004A75D3 /* starring@2X.png */; };
+		3FA567911711EC77004A75D3 /* CoverPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA5678F1711EC77004A75D3 /* CoverPageViewController.m */; };
+		3FA567921711EC77004A75D3 /* CoverPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA567901711EC77004A75D3 /* CoverPageViewController.xib */; };
+		3FA567951711F00F004A75D3 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA567941711F00F004A75D3 /* PageViewController.m */; };
 		3FA70C65170E8B010065F561 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA70C64170E8B010065F561 /* UIKit.framework */; };
 		3FA70C67170E8B010065F561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA70C66170E8B010065F561 /* Foundation.framework */; };
 		3FA70C69170E8B010065F561 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA70C68170E8B010065F561 /* CoreGraphics.framework */; };
@@ -51,8 +56,15 @@
 		3F8462C3170FB88200CD6BF2 /* storyContents.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = storyContents.xml; path = ToTheMoon/storyContents.xml; sourceTree = "<group>"; };
 		3FA567751711CE4A004A75D3 /* page1_hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1_hero.png; sourceTree = "<group>"; };
 		3FA567761711CE4A004A75D3 /* page1_hero@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page1_hero@2x.png"; sourceTree = "<group>"; };
-		3FA567791711D1A5004A75D3 /* retina_wood_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retina_wood_@2X.png"; sourceTree = "<group>"; };
 		3FA5677A1711D1A5004A75D3 /* retina_wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retina_wood.png; sourceTree = "<group>"; };
+		3FA5677D1711E7E0004A75D3 /* retina_wood@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retina_wood@2X.png"; sourceTree = "<group>"; };
+		3FA5677F1711E88F004A75D3 /* starring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starring.png; sourceTree = "<group>"; };
+		3FA567801711E88F004A75D3 /* starring@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starring@2X.png"; sourceTree = "<group>"; };
+		3FA5678E1711EC76004A75D3 /* CoverPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverPageViewController.h; sourceTree = "<group>"; };
+		3FA5678F1711EC77004A75D3 /* CoverPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverPageViewController.m; sourceTree = "<group>"; };
+		3FA567901711EC77004A75D3 /* CoverPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoverPageViewController.xib; sourceTree = "<group>"; };
+		3FA567931711F00F004A75D3 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		3FA567941711F00F004A75D3 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 		3FA70C61170E8B010065F561 /* ToTheMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToTheMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA70C64170E8B010065F561 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FA70C66170E8B010065F561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,11 +111,16 @@
 		3F8462AC170F717000CD6BF2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3FA567931711F00F004A75D3 /* PageViewController.h */,
+				3FA567941711F00F004A75D3 /* PageViewController.m */,
 				3F8462B2170F73BD00CD6BF2 /* HeroPageViewController.h */,
 				3F8462B3170F73BD00CD6BF2 /* HeroPageViewController.m */,
 				3F8462B4170F73BD00CD6BF2 /* HeroPageViewController.xib */,
 				3F8462B7170F7D8A00CD6BF2 /* StoryViewController.h */,
 				3F8462B8170F7D8A00CD6BF2 /* StoryViewController.m */,
+				3FA5678E1711EC76004A75D3 /* CoverPageViewController.h */,
+				3FA5678F1711EC77004A75D3 /* CoverPageViewController.m */,
+				3FA567901711EC77004A75D3 /* CoverPageViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -157,7 +174,9 @@
 		3FA70C6B170E8B010065F561 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3FA567791711D1A5004A75D3 /* retina_wood_@2X.png */,
+				3FA5677F1711E88F004A75D3 /* starring.png */,
+				3FA567801711E88F004A75D3 /* starring@2X.png */,
+				3FA5677D1711E7E0004A75D3 /* retina_wood@2X.png */,
 				3FA5677A1711D1A5004A75D3 /* retina_wood.png */,
 				3FA567751711CE4A004A75D3 /* page1_hero.png */,
 				3FA567761711CE4A004A75D3 /* page1_hero@2x.png */,
@@ -236,8 +255,11 @@
 				3F8462B6170F73BD00CD6BF2 /* HeroPageViewController.xib in Resources */,
 				3FA567771711CE4A004A75D3 /* page1_hero.png in Resources */,
 				3FA567781711CE4A004A75D3 /* page1_hero@2x.png in Resources */,
-				3FA5677B1711D1A5004A75D3 /* retina_wood_@2X.png in Resources */,
 				3FA5677C1711D1A5004A75D3 /* retina_wood.png in Resources */,
+				3FA5677E1711E7E0004A75D3 /* retina_wood@2X.png in Resources */,
+				3FA567811711E88F004A75D3 /* starring.png in Resources */,
+				3FA567821711E88F004A75D3 /* starring@2X.png in Resources */,
+				3FA567921711EC77004A75D3 /* CoverPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +276,8 @@
 				3F8462B9170F7D8A00CD6BF2 /* StoryViewController.m in Sources */,
 				3F8462BC170F9B3400CD6BF2 /* PageModel.m in Sources */,
 				3F8462C2170FA5FE00CD6BF2 /* StoryParser.m in Sources */,
+				3FA567911711EC77004A75D3 /* CoverPageViewController.m in Sources */,
+				3FA567951711F00F004A75D3 /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
