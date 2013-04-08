@@ -47,21 +47,14 @@
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:self.model.backgroundFilename]];
     
     //add a drop shadow
-    /*
-    self.heroView.layer.shadowColor = [UIColor whiteColor].CGColor;
-    self.heroView.layer.shadowOffset = CGSizeMake(0, 1);
-    self.heroView.layer.shadowOpacity = 1;
-    self.heroView.layer.shadowRadius = 6.0;
-    self.heroView.clipsToBounds = NO;
-     */
     [self.heroView.layer setCornerRadius:30.0f];
-    //[self.heroView.layer setBorderColor:[UIColor lightGrayColor].CGColor];
-    //[self.heroView.layer setBorderWidth:1.5f];
     [self.heroView.layer setShadowColor:[UIColor blackColor].CGColor];
     [self.heroView.layer setShadowOpacity:0.8];
     [self.heroView.layer setShadowRadius:3.0];
     [self.heroView.layer setShadowOffset:CGSizeMake(1.0, 5.0)];
 }
+
+
 
 
 @end
