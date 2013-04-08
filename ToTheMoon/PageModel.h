@@ -25,4 +25,7 @@
 //CoverPageViewController specific properties
 @property (strong, nonatomic) NSString *authorCredit;
 
+//TallPageViewController specific properties
+@property (strong, nonatomic) NSString *tallFilename;
+
 @end

@@ -25,4 +25,12 @@
         <heroCaption>Tap an astronaut to learn more</heroCaption>
         <backgroundFilename>retina_wood</backgroundFilename>
 	</page>
+    <page>
+		<sequence>3</sequence>
+		<viewControllerClass>TallPageViewController</viewControllerClass>
+		<header>Liftoff</header>
+		<body>The big day is finally here! Our hero astronauts climb aboard the massive Saturn Five rocket and blast off toward the Moon.</body>
+		<tallFilename>liftoff</tallFilename>
+        <backgroundFilename>foggy_birds</backgroundFilename>
+	</page>
 </pages>

@@ -10,6 +10,7 @@
 #import "PageViewController.h"
 #import "HeroPageViewController.h"
 #import "CoverPageViewController.h"
+#import "TallPageViewController.h"
 
 
 

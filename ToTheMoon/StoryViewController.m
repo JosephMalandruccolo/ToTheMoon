@@ -129,6 +129,11 @@
         dataSourceViewController.model = [self.storyData objectAtIndex:index];
         return dataSourceViewController;
     }
+    else if ([viewControllerClass isEqualToString:@"TallPageViewController"]) {
+        TallPageViewController *dataSourceViewController = [[TallPageViewController alloc] initWithNibName:@"TallPageViewController" bundle:nil];
+        dataSourceViewController.model = [self.storyData objectAtIndex:index];
+        return dataSourceViewController;
+    }
     else return nil;
     
 }
