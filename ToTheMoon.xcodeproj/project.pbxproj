@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4E6F4E1713AABA009CE570 /* spacecraft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E6F4C1713AABA009CE570 /* spacecraft.png */; };
+		3F4E6F4F1713AABA009CE570 /* spacecraft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E6F4D1713AABA009CE570 /* spacecraft@2x.png */; };
 		3F79D833170EA73300118D99 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D832170EA73300118D99 /* Icon.png */; };
 		3F79D835170EA73B00118D99 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D834170EA73A00118D99 /* Icon@2x.png */; };
 		3F79D83C170EB14900118D99 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D83A170EB14900118D99 /* Default-Landscape.png */; };
@@ -46,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F4E6F4C1713AABA009CE570 /* spacecraft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spacecraft.png; sourceTree = "<group>"; };
+		3F4E6F4D1713AABA009CE570 /* spacecraft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spacecraft@2x.png"; sourceTree = "<group>"; };
 		3F79D832170EA73300118D99 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		3F79D834170EA73A00118D99 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		3F79D83A170EB14900118D99 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 		3FA70C6B170E8B010065F561 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F4E6F4C1713AABA009CE570 /* spacecraft.png */,
+				3F4E6F4D1713AABA009CE570 /* spacecraft@2x.png */,
 				3F8D9907171359B0008B4D6F /* foggy_birds.png */,
 				3F8D9908171359B0008B4D6F /* foggy_birds@2X.png */,
 				3F8D990317127E63008B4D6F /* liftoff.png */,
@@ -293,6 +299,8 @@
 				3F8D990617127E63008B4D6F /* liftoff@2x.png in Resources */,
 				3F8D9909171359B0008B4D6F /* foggy_birds.png in Resources */,
 				3F8D990A171359B0008B4D6F /* foggy_birds@2X.png in Resources */,
+				3F4E6F4E1713AABA009CE570 /* spacecraft.png in Resources */,
+				3F4E6F4F1713AABA009CE570 /* spacecraft@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
