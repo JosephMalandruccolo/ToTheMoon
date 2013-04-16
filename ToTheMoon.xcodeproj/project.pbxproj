@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F15E53A171E0550007BE359 /* CreditsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F15E538171E0550007BE359 /* CreditsPageViewController.m */; };
+		3F15E53B171E0550007BE359 /* CreditsPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F15E539171E0550007BE359 /* CreditsPageViewController.xib */; };
 		3F477F8B171DCF0E0033B517 /* homeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F477F89171DCF0E0033B517 /* homeBtn.png */; };
 		3F477F8C171DCF0E0033B517 /* homeBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F477F8A171DCF0E0033B517 /* homeBtn@2x.png */; };
 		3F4E6F4E1713AABA009CE570 /* spacecraft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E6F4C1713AABA009CE570 /* spacecraft.png */; };
@@ -64,6 +66,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F15E537171E0550007BE359 /* CreditsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsPageViewController.h; sourceTree = "<group>"; };
+		3F15E538171E0550007BE359 /* CreditsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsPageViewController.m; sourceTree = "<group>"; };
+		3F15E539171E0550007BE359 /* CreditsPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditsPageViewController.xib; sourceTree = "<group>"; };
 		3F477F89171DCF0E0033B517 /* homeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeBtn.png; sourceTree = "<group>"; };
 		3F477F8A171DCF0E0033B517 /* homeBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeBtn@2x.png"; sourceTree = "<group>"; };
 		3F4E6F4C1713AABA009CE570 /* spacecraft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spacecraft.png; sourceTree = "<group>"; };
@@ -181,6 +186,9 @@
 				3F4E6F501713B841009CE570 /* MassivePageViewController.h */,
 				3F4E6F511713B841009CE570 /* MassivePageViewController.m */,
 				3F4E6F521713B841009CE570 /* MassivePageViewController.xib */,
+				3F15E537171E0550007BE359 /* CreditsPageViewController.h */,
+				3F15E538171E0550007BE359 /* CreditsPageViewController.m */,
+				3F15E539171E0550007BE359 /* CreditsPageViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -366,6 +374,7 @@
 				3F477F8C171DCF0E0033B517 /* homeBtn@2x.png in Resources */,
 				3F876EB8171DF6DA009DBFD9 /* playAudio.png in Resources */,
 				3F876EB9171DF6DA009DBFD9 /* playAudio@2x.png in Resources */,
+				3F15E53B171E0550007BE359 /* CreditsPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +395,7 @@
 				3FA567951711F00F004A75D3 /* PageViewController.m in Sources */,
 				3FEF3A2817122D7600FC810D /* TallPageViewController.m in Sources */,
 				3F4E6F531713B841009CE570 /* MassivePageViewController.m in Sources */,
+				3F15E53A171E0550007BE359 /* CreditsPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
