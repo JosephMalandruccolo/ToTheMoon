@@ -21,6 +21,6 @@
 @property (strong, nonatomic) UIPageViewController *pageVC;
 
 
-
+- (PageViewController *)viewControllerAtIndex:(NSUInteger)index;
 
 @end
