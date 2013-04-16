@@ -59,6 +59,13 @@
     [self.returnHomeImageView.layer setShadowOpacity:1.0];
     [self.returnHomeImageView.layer setShadowRadius:1.0];
     [self.returnHomeImageView.layer setShadowOffset:CGSizeMake(1.0, 3.0)];
+    
+    [self.playAudioImageView.layer setCornerRadius:30.0f];
+    [self.playAudioImageView.layer setShadowColor:[UIColor blackColor].CGColor];
+    [self.playAudioImageView.layer setShadowOpacity:1.0];
+    [self.playAudioImageView.layer setShadowRadius:1.0];
+    [self.playAudioImageView.layer setShadowOffset:CGSizeMake(1.0, 3.0)];
+    
 }
 
 
@@ -67,15 +74,14 @@
 {
     
     NSLog(@"returnHome btn tapped");
-    UIViewController *parentVC = self.parentViewController;
-    StoryViewController *storyVC = (StoryViewController*)parentVC.parentViewController;
-    UIPageViewController *pageVC = storyVC.pageVC;
-    
-    PageViewController *initialVC = [storyVC viewControllerAtIndex:0];
-    NSArray *vc = [NSArray arrayWithObject:initialVC];
-    [pageVC setViewControllers:vc direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
+    [self jumpToHome:self];
     
     
+}
+
+- (IBAction)playAudioBtn:(id)sender
+{
+    NSLog(@"playAudio btn tapped");
 }
 
 

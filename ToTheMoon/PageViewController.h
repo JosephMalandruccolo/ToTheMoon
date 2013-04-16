@@ -14,4 +14,6 @@
 
 @property (strong, nonatomic) PageModel *model;
 
+- (void)jumpToHome:(PageViewController*)controller;
+
 @end

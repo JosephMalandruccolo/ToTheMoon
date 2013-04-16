@@ -18,9 +18,11 @@
 @property (weak, nonatomic) IBOutlet UIImageView *heroView;
 @property (weak, nonatomic) IBOutlet UILabel *heroCaption;
 @property (weak, nonatomic) IBOutlet UIImageView *returnHomeImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *playAudioImageView;
 
 
 - (IBAction)returnHomeBtn:(id)sender;
+- (IBAction)playAudioBtn:(id)sender;
 
 
 
