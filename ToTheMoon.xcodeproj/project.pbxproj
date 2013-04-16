@@ -53,6 +53,10 @@
 		3FEF3A2917122D7600FC810D /* TallPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF3A2717122D7600FC810D /* TallPageViewController.xib */; };
 		3FF983BF171CEEB500833FDC /* firstSteps.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983BD171CEEB500833FDC /* firstSteps.png */; };
 		3FF983C0171CEEB500833FDC /* firstSteps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983BE171CEEB500833FDC /* firstSteps@2x.png */; };
+		3FF983C2171CF58600833FDC /* reentry.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983C1171CF58600833FDC /* reentry.png */; };
+		3FF983C4171CF59800833FDC /* reentry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983C3171CF59800833FDC /* reentry@2x.png */; };
+		3FF983C7171CF9C300833FDC /* earthWithNixon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983C5171CF9C300833FDC /* earthWithNixon.png */; };
+		3FF983C8171CF9C300833FDC /* earthWithNixon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983C6171CF9C300833FDC /* earthWithNixon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +118,10 @@
 		3FEF3A2717122D7600FC810D /* TallPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TallPageViewController.xib; sourceTree = "<group>"; };
 		3FF983BD171CEEB500833FDC /* firstSteps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstSteps.png; sourceTree = "<group>"; };
 		3FF983BE171CEEB500833FDC /* firstSteps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstSteps@2x.png"; sourceTree = "<group>"; };
+		3FF983C1171CF58600833FDC /* reentry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reentry.png; sourceTree = "<group>"; };
+		3FF983C3171CF59800833FDC /* reentry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reentry@2x.png"; sourceTree = "<group>"; };
+		3FF983C5171CF9C300833FDC /* earthWithNixon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthWithNixon.png; sourceTree = "<group>"; };
+		3FF983C6171CF9C300833FDC /* earthWithNixon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earthWithNixon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +226,10 @@
 		3FA70C6B170E8B010065F561 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FF983C5171CF9C300833FDC /* earthWithNixon.png */,
+				3FF983C6171CF9C300833FDC /* earthWithNixon@2x.png */,
+				3FF983C3171CF59800833FDC /* reentry@2x.png */,
+				3FF983C1171CF58600833FDC /* reentry.png */,
 				3FF983BD171CEEB500833FDC /* firstSteps.png */,
 				3FF983BE171CEEB500833FDC /* firstSteps@2x.png */,
 				3FC9465917153557002060FE /* animatedTravel.png */,
@@ -334,6 +346,10 @@
 				3FC9465C17153557002060FE /* animatedTravel@2x.png in Resources */,
 				3FF983BF171CEEB500833FDC /* firstSteps.png in Resources */,
 				3FF983C0171CEEB500833FDC /* firstSteps@2x.png in Resources */,
+				3FF983C2171CF58600833FDC /* reentry.png in Resources */,
+				3FF983C4171CF59800833FDC /* reentry@2x.png in Resources */,
+				3FF983C7171CF9C300833FDC /* earthWithNixon.png in Resources */,
+				3FF983C8171CF9C300833FDC /* earthWithNixon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

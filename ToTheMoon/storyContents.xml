@@ -60,4 +60,22 @@
         <heroCaption>The image on the left shows Buzz Aldrin climbing down the Lunar Module's ladder. The image on the right shows Buzz doing a science experiment on the Moon.</heroCaption>
         <backgroundFilename>starring</backgroundFilename>
 	</page>
+    <page>
+		<sequence>7</sequence>
+		<viewControllerClass>HeroPageViewController</viewControllerClass>
+		<header>Return to Earth</header>
+		<body>After spending X days on the Moon, our hero astronauts return to Earth. They reenter Earth's atmosphere in the Command Module, protected by a strong heat shield on the bottom of the spacecraft</body>
+		<heroFilename>reentry</heroFilename>
+        <heroCaption>Artist's draing of the Command Module reentering Earth's atmosphere</heroCaption>
+        <backgroundFilename>foggy_birds</backgroundFilename>
+	</page>
+    <page>
+		<sequence>8</sequence>
+		<viewControllerClass>HeroPageViewController</viewControllerClass>
+		<header>Celebrating America's Accomplishment</header>
+		<body>Our heros are welcomed back to Earth by the President of the United States, Richard Nixon. Nixon called the Apollo 11 mission "The greatest week in the history of the world since creation". At the very least the hard work and imagination of everybody at NASA helped mankind achieve what was once impossible.</body>
+		<heroFilename>earthWithNixon</heroFilename>
+        <heroCaption>President Nixon greets the Apollo 11 crew</heroCaption>
+        <backgroundFilename>retina_wood</backgroundFilename>
+	</page>
 </pages>
