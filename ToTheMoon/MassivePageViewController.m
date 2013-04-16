@@ -58,6 +58,18 @@
     [self.massiveView.layer setShadowRadius:3.0];
     [self.massiveView.layer setShadowOffset:CGSizeMake(1.0, 5.0)];
     
+    [self.homeImageView.layer setCornerRadius:30.0f];
+    [self.homeImageView.layer setShadowColor:[UIColor blackColor].CGColor];
+    [self.homeImageView.layer setShadowOpacity:1.0];
+    [self.homeImageView.layer setShadowRadius:1.0];
+    [self.homeImageView.layer setShadowOffset:CGSizeMake(1.0, 3.0)];
+    
+    [self.playAudioImageView.layer setCornerRadius:30.0f];
+    [self.playAudioImageView.layer setShadowColor:[UIColor blackColor].CGColor];
+    [self.playAudioImageView.layer setShadowOpacity:1.0];
+    [self.playAudioImageView.layer setShadowRadius:1.0];
+    [self.playAudioImageView.layer setShadowOffset:CGSizeMake(1.0, 3.0)];
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -92,6 +104,19 @@
 
 
 
+
+
+
+- (IBAction)returnToHome:(id)sender
+{
+    NSLog(@"returnToHome tapped");
+    [self jumpToHome:self];
+}
+
+- (IBAction)playAudioBtn:(id)sender
+{
+    NSLog(@"playAudioBtn");
+}
 
 
 

@@ -16,5 +16,11 @@
 @property (weak, nonatomic) IBOutlet UILabel *storyText;
 
 @property (weak, nonatomic) NSString *resourceToAnimate;
+@property (weak, nonatomic) IBOutlet UIImageView *homeImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *playAudioImageView;
+
+
+- (IBAction)returnToHome:(id)sender;
+- (IBAction)playAudioBtn:(id)sender;
 
 @end
