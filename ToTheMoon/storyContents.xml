@@ -51,4 +51,13 @@
         <imageToAnimate>animatedTravel</imageToAnimate>
         <backgroundFilename>starring</backgroundFilename>
 	</page>
+    <page>
+		<sequence>6</sequence>
+		<viewControllerClass>HeroPageViewController</viewControllerClass>
+		<header>One small step for man, one giant leap for mankind</header>
+		<body>After nearly 10 years of hard work, great teamwork, NASA landed three astronauts on the Moon</body>
+		<heroFilename>firstSteps</heroFilename>
+        <heroCaption>The image on the left shows Buzz Aldrin climbing down the Lunar Module's ladder. The image on the right shows Buzz doing a science experiment on the Moon.</heroCaption>
+        <backgroundFilename>starring</backgroundFilename>
+	</page>
 </pages>

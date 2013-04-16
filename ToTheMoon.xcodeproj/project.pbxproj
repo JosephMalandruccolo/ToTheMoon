@@ -51,6 +51,8 @@
 		3FEF3A2417121A7500FC810D /* astronauts_hero@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF3A2217121A7500FC810D /* astronauts_hero@2x.png */; };
 		3FEF3A2817122D7600FC810D /* TallPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF3A2617122D7600FC810D /* TallPageViewController.m */; };
 		3FEF3A2917122D7600FC810D /* TallPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF3A2717122D7600FC810D /* TallPageViewController.xib */; };
+		3FF983BF171CEEB500833FDC /* firstSteps.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983BD171CEEB500833FDC /* firstSteps.png */; };
+		3FF983C0171CEEB500833FDC /* firstSteps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983BE171CEEB500833FDC /* firstSteps@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +112,8 @@
 		3FEF3A2517122D7600FC810D /* TallPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TallPageViewController.h; sourceTree = "<group>"; };
 		3FEF3A2617122D7600FC810D /* TallPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TallPageViewController.m; sourceTree = "<group>"; };
 		3FEF3A2717122D7600FC810D /* TallPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TallPageViewController.xib; sourceTree = "<group>"; };
+		3FF983BD171CEEB500833FDC /* firstSteps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstSteps.png; sourceTree = "<group>"; };
+		3FF983BE171CEEB500833FDC /* firstSteps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstSteps@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,8 @@
 		3FA70C6B170E8B010065F561 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FF983BD171CEEB500833FDC /* firstSteps.png */,
+				3FF983BE171CEEB500833FDC /* firstSteps@2x.png */,
 				3FC9465917153557002060FE /* animatedTravel.png */,
 				3FC9465A17153557002060FE /* animatedTravel@2x.png */,
 				3F4E6F551713C58F009CE570 /* distance_massive.png */,
@@ -326,6 +332,8 @@
 				3F4E6F581713C58F009CE570 /* distance_massive@2x.png in Resources */,
 				3FC9465B17153557002060FE /* animatedTravel.png in Resources */,
 				3FC9465C17153557002060FE /* animatedTravel@2x.png in Resources */,
+				3FF983BF171CEEB500833FDC /* firstSteps.png in Resources */,
+				3FF983C0171CEEB500833FDC /* firstSteps@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
