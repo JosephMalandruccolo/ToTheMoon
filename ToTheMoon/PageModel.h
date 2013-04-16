@@ -18,6 +18,7 @@
 @property (strong, nonatomic) NSString *backgroundFilename;
 
 //HeroPageViewController specific properties
+//MassivePageViewController uses heroFilename for its MassiveImageView
 @property (strong, nonatomic) NSString *heroFilename;
 @property (strong, nonatomic) NSString *heroCaption;
 
@@ -27,5 +28,8 @@
 
 //TallPageViewController specific properties
 @property (strong, nonatomic) NSString *tallFilename;
+
+//MassivePageViewController specific properties
+@property (strong, nonatomic) NSString *imageToAnimate;
 
 @end

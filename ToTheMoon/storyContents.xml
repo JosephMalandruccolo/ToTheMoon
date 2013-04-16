@@ -42,4 +42,13 @@
         <heroCaption>Tap a part of the spacecraft to learn more</heroCaption>
         <backgroundFilename>starring</backgroundFilename>
 	</page>
+    <page>
+		<sequence>5</sequence>
+		<viewControllerClass>MassivePageViewController</viewControllerClass>
+		<header>A Long Way From Home</header>
+		<body>The Moon is a really long way from Earth. The total distance is about 237,000 miles. If it were possible, it would take 9 years to walk to the Moon. Even with a rocketship, it takes the astronauts four days to reach the Moon.</body>
+		<heroFilename>distance_massive</heroFilename>
+        <imageToAnimate>animatedTravel</imageToAnimate>
+        <backgroundFilename>starring</backgroundFilename>
+	</page>
 </pages>

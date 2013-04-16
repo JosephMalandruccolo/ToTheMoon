@@ -11,6 +11,7 @@
 #import "HeroPageViewController.h"
 #import "CoverPageViewController.h"
 #import "TallPageViewController.h"
+#import "MassivePageViewController.h"
 
 
 

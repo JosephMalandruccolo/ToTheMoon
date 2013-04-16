@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3F4E6F4E1713AABA009CE570 /* spacecraft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E6F4C1713AABA009CE570 /* spacecraft.png */; };
 		3F4E6F4F1713AABA009CE570 /* spacecraft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E6F4D1713AABA009CE570 /* spacecraft@2x.png */; };
+		3F4E6F531713B841009CE570 /* MassivePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E6F511713B841009CE570 /* MassivePageViewController.m */; };
+		3F4E6F541713B841009CE570 /* MassivePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E6F521713B841009CE570 /* MassivePageViewController.xib */; };
+		3F4E6F571713C58F009CE570 /* distance_massive.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E6F551713C58F009CE570 /* distance_massive.png */; };
+		3F4E6F581713C58F009CE570 /* distance_massive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E6F561713C58F009CE570 /* distance_massive@2x.png */; };
 		3F79D833170EA73300118D99 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D832170EA73300118D99 /* Icon.png */; };
 		3F79D835170EA73B00118D99 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D834170EA73A00118D99 /* Icon@2x.png */; };
 		3F79D83C170EB14900118D99 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D83A170EB14900118D99 /* Default-Landscape.png */; };
@@ -41,6 +45,8 @@
 		3FA70C71170E8B010065F561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA70C70170E8B010065F561 /* main.m */; };
 		3FA70C75170E8B010065F561 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA70C74170E8B010065F561 /* AppDelegate.m */; };
 		3FA70C87170E8B010065F561 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA70C85170E8B010065F561 /* MainStoryboard.storyboard */; };
+		3FC9465B17153557002060FE /* animatedTravel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9465917153557002060FE /* animatedTravel.png */; };
+		3FC9465C17153557002060FE /* animatedTravel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9465A17153557002060FE /* animatedTravel@2x.png */; };
 		3FEF3A2317121A7500FC810D /* astronauts_hero.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF3A2117121A7500FC810D /* astronauts_hero.png */; };
 		3FEF3A2417121A7500FC810D /* astronauts_hero@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF3A2217121A7500FC810D /* astronauts_hero@2x.png */; };
 		3FEF3A2817122D7600FC810D /* TallPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF3A2617122D7600FC810D /* TallPageViewController.m */; };
@@ -50,6 +56,11 @@
 /* Begin PBXFileReference section */
 		3F4E6F4C1713AABA009CE570 /* spacecraft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spacecraft.png; sourceTree = "<group>"; };
 		3F4E6F4D1713AABA009CE570 /* spacecraft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spacecraft@2x.png"; sourceTree = "<group>"; };
+		3F4E6F501713B841009CE570 /* MassivePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MassivePageViewController.h; sourceTree = "<group>"; };
+		3F4E6F511713B841009CE570 /* MassivePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MassivePageViewController.m; sourceTree = "<group>"; };
+		3F4E6F521713B841009CE570 /* MassivePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MassivePageViewController.xib; sourceTree = "<group>"; };
+		3F4E6F551713C58F009CE570 /* distance_massive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = distance_massive.png; sourceTree = "<group>"; };
+		3F4E6F561713C58F009CE570 /* distance_massive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "distance_massive@2x.png"; sourceTree = "<group>"; };
 		3F79D832170EA73300118D99 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		3F79D834170EA73A00118D99 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		3F79D83A170EB14900118D99 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
@@ -92,6 +103,8 @@
 		3FA70C73170E8B010065F561 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FA70C74170E8B010065F561 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3FA70C86170E8B010065F561 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3FC9465917153557002060FE /* animatedTravel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animatedTravel.png; sourceTree = "<group>"; };
+		3FC9465A17153557002060FE /* animatedTravel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animatedTravel@2x.png"; sourceTree = "<group>"; };
 		3FEF3A2117121A7500FC810D /* astronauts_hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astronauts_hero.png; sourceTree = "<group>"; };
 		3FEF3A2217121A7500FC810D /* astronauts_hero@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "astronauts_hero@2x.png"; sourceTree = "<group>"; };
 		3FEF3A2517122D7600FC810D /* TallPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TallPageViewController.h; sourceTree = "<group>"; };
@@ -145,6 +158,9 @@
 				3FEF3A2517122D7600FC810D /* TallPageViewController.h */,
 				3FEF3A2617122D7600FC810D /* TallPageViewController.m */,
 				3FEF3A2717122D7600FC810D /* TallPageViewController.xib */,
+				3F4E6F501713B841009CE570 /* MassivePageViewController.h */,
+				3F4E6F511713B841009CE570 /* MassivePageViewController.m */,
+				3F4E6F521713B841009CE570 /* MassivePageViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -198,6 +214,10 @@
 		3FA70C6B170E8B010065F561 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FC9465917153557002060FE /* animatedTravel.png */,
+				3FC9465A17153557002060FE /* animatedTravel@2x.png */,
+				3F4E6F551713C58F009CE570 /* distance_massive.png */,
+				3F4E6F561713C58F009CE570 /* distance_massive@2x.png */,
 				3F4E6F4C1713AABA009CE570 /* spacecraft.png */,
 				3F4E6F4D1713AABA009CE570 /* spacecraft@2x.png */,
 				3F8D9907171359B0008B4D6F /* foggy_birds.png */,
@@ -301,6 +321,11 @@
 				3F8D990A171359B0008B4D6F /* foggy_birds@2X.png in Resources */,
 				3F4E6F4E1713AABA009CE570 /* spacecraft.png in Resources */,
 				3F4E6F4F1713AABA009CE570 /* spacecraft@2x.png in Resources */,
+				3F4E6F541713B841009CE570 /* MassivePageViewController.xib in Resources */,
+				3F4E6F571713C58F009CE570 /* distance_massive.png in Resources */,
+				3F4E6F581713C58F009CE570 /* distance_massive@2x.png in Resources */,
+				3FC9465B17153557002060FE /* animatedTravel.png in Resources */,
+				3FC9465C17153557002060FE /* animatedTravel@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +345,7 @@
 				3FA567911711EC77004A75D3 /* CoverPageViewController.m in Sources */,
 				3FA567951711F00F004A75D3 /* PageViewController.m in Sources */,
 				3FEF3A2817122D7600FC810D /* TallPageViewController.m in Sources */,
+				3F4E6F531713B841009CE570 /* MassivePageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

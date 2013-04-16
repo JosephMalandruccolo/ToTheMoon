@@ -134,6 +134,11 @@
         dataSourceViewController.model = [self.storyData objectAtIndex:index];
         return dataSourceViewController;
     }
+    else if ([viewControllerClass isEqualToString:@"MassivePageViewController"]) {
+        MassivePageViewController *dataSourceViewController = [[MassivePageViewController alloc] initWithNibName:@"MassivePageViewController" bundle:nil];
+        dataSourceViewController.model = [self.storyData objectAtIndex:index];
+        return dataSourceViewController;
+    }
     else return nil;
     
 }
