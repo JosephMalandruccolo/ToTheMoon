@@ -17,6 +17,12 @@
 @property (weak, nonatomic) IBOutlet UILabel *storyText;
 @property (weak, nonatomic) IBOutlet UIImageView *heroView;
 @property (weak, nonatomic) IBOutlet UILabel *heroCaption;
+@property (weak, nonatomic) IBOutlet UIImageView *returnHomeImageView;
+
+
+- (IBAction)returnHomeBtn:(id)sender;
+
+
 
 
 

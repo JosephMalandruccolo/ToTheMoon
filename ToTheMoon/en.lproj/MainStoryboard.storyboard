@@ -16,14 +16,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p2q-Au-YG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="502" y="-316"/>
+            <point key="canvasLocation" x="1126" y="-144"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="StoryViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/StoryViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
