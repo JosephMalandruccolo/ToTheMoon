@@ -37,9 +37,9 @@
 		<sequence>4</sequence>
 		<viewControllerClass>HeroPageViewController</viewControllerClass>
 		<header>Spacecraft</header>
-		<body>The astronauts flew a spacecraft made just for their mission to the Moon. The spacecraft was made of three parts, called "modules". The "Command Module", the "Service Module", and the "Lunar Module". Tap a part of the spacecraft above to see more.</body>
+		<body>The astronauts flew a spacecraft made just for their mission to the Moon. The spacecraft was made of three parts, called "modules". The "Command Module", the "Service Module", and the "Lunar Module". </body>
 		<heroFilename>spacecraft</heroFilename>
-        <heroCaption>Tap a part of the spacecraft to learn more</heroCaption>
+        <heroCaption>From left to right, Service Module, Command Module, Lunar Module</heroCaption>
         <backgroundFilename>psychedelic_pattern</backgroundFilename>
 	</page>
     <page>
