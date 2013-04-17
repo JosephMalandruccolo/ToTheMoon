@@ -10,6 +10,8 @@
 
 @interface CreditsPageViewController : PageViewController <UITableViewDataSource, UITableViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UILabel *header;
+
+- (IBAction)homeBtn:(id)sender;
+
 
 @end

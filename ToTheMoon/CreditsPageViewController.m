@@ -37,7 +37,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [self loadCredits];
-    self.header.text = self.model.header;
     self.tableView.scrollEnabled = NO;
     self.tableView.allowsSelection = NO;
 }
@@ -100,4 +99,8 @@
     self.credits = [NSArray arrayWithObjects:producer, author, developer, voice, nouns, nasa, nil];
 }
 
+- (IBAction)homeBtn:(id)sender
+{
+    [self jumpToHome:self];
+}
 @end
