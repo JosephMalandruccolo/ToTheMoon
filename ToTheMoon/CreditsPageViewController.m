@@ -101,12 +101,22 @@
     NSDictionary *voice = [[NSDictionary alloc] initWithObjectsAndKeys:@"Joseph Malandruccolo", @"NAME", @"Voice Actor", @"ROLE", nil];
     NSDictionary *nouns = [[NSDictionary alloc] initWithObjectsAndKeys:@"The Noun Project", @"NAME", @"Home and Sound Icons", @"ROLE", nil];
     NSDictionary *nasa = [[NSDictionary alloc] initWithObjectsAndKeys:@"NASA", @"NAME", @"All Photographs", @"ROLE", nil];
+    NSDictionary *fun = [[NSDictionary alloc] initWithObjectsAndKeys:@"Try dragging the moon around", @"NAME", @"just for fun", @"ROLE", nil];
+
     
-    self.credits = [NSArray arrayWithObjects:producer, author, developer, voice, nouns, nasa, nil];
+    self.credits = [NSArray arrayWithObjects:producer, author, developer, voice, nouns, nasa, fun, nil];
 }
 
 - (IBAction)homeBtn:(id)sender
 {
     [self jumpToHome:self];
 }
+
+- (IBAction)handleDrag:(UIPanGestureRecognizer *)sender
+{
+    CGPoint translation = [sender translationInView:self.view];
+    sender.view.center = CGPointMake(sender.view.center.x + translation.x, sender.view.center.y + translation.y);
+    [sender setTranslation:CGPointMake(0, 0) inView:self.view];
+}
+
 @end

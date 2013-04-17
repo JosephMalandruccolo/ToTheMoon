@@ -13,6 +13,8 @@
 
 
 - (IBAction)homeBtn:(id)sender;
+- (IBAction)handleDrag:(UIPanGestureRecognizer *)sender;
+
 
 
 @end
