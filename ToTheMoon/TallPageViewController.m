@@ -73,6 +73,12 @@
     [self.playAudioImageView.layer setShadowOpacity:1.0];
     [self.playAudioImageView.layer setShadowRadius:1.0];
     [self.playAudioImageView.layer setShadowOffset:CGSizeMake(1.0, 3.0)];
+    
+    [self.hearRocketImageView.layer setCornerRadius:30.0f];
+    [self.hearRocketImageView.layer setShadowColor:[UIColor blackColor].CGColor];
+    [self.hearRocketImageView.layer setShadowOpacity:1.0];
+    [self.hearRocketImageView.layer setShadowRadius:1.0];
+    [self.hearRocketImageView.layer setShadowOffset:CGSizeMake(1.0, 3.0)];
 
 }
 
@@ -85,5 +91,10 @@
 - (IBAction)playAudioBtn:(id)sender
 {
     NSLog(@"playAudioBtn tapped");
+}
+
+- (IBAction)hearRocketBtn:(id)sender
+{
+    NSLog(@"hearRocketBtn");
 }
 @end
