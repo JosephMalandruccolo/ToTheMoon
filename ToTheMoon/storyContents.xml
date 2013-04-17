@@ -40,7 +40,7 @@
 		<body>The astronauts flew a spacecraft made just for their mission to the Moon. The spacecraft was made of three parts, called "modules". The "Command Module", the "Service Module", and the "Lunar Module". Tap a part of the spacecraft above to see more.</body>
 		<heroFilename>spacecraft</heroFilename>
         <heroCaption>Tap a part of the spacecraft to learn more</heroCaption>
-        <backgroundFilename>starring</backgroundFilename>
+        <backgroundFilename>psychedelic_pattern</backgroundFilename>
 	</page>
     <page>
 		<sequence>5</sequence>
@@ -49,7 +49,7 @@
 		<body>The Moon is a really long way from Earth. The total distance is about 237,000 miles. If it were possible, it would take 9 years to walk to the Moon. Even with a rocketship, it takes the astronauts four days to reach the Moon.</body>
 		<heroFilename>distance_massive</heroFilename>
         <imageToAnimate>animatedTravel</imageToAnimate>
-        <backgroundFilename>starring</backgroundFilename>
+        <backgroundFilename>psychedelic_pattern</backgroundFilename>
 	</page>
     <page>
 		<sequence>6</sequence>
@@ -58,7 +58,7 @@
 		<body>After nearly 10 years of hard work, great teamwork, NASA landed three astronauts on the Moon</body>
 		<heroFilename>firstSteps</heroFilename>
         <heroCaption>The image on the left shows Buzz Aldrin climbing down the Lunar Module's ladder. The image on the right shows Buzz doing a science experiment on the Moon.</heroCaption>
-        <backgroundFilename>starring</backgroundFilename>
+        <backgroundFilename>psychedelic_pattern</backgroundFilename>
 	</page>
     <page>
 		<sequence>7</sequence>
