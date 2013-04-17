@@ -28,6 +28,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,6 +46,18 @@
     
     PageViewController *initialVC = [storyVC viewControllerAtIndex:0];
     NSArray *vc = [NSArray arrayWithObject:initialVC];
+    [pageVC setViewControllers:vc direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
+}
+
+
+- (void)jumpToCredits:(PageViewController*)controller
+{
+    UIViewController *parentVC = controller.parentViewController;
+    StoryViewController *storyVC = (StoryViewController*)parentVC.parentViewController;
+    UIPageViewController *pageVC = storyVC.pageVC;
+    
+    PageViewController *creditsVC = [storyVC viewControllerAtIndex:[storyVC.storyData count] - 1];
+    NSArray *vc = [NSArray arrayWithObject:creditsVC];
     [pageVC setViewControllers:vc direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
 }
 

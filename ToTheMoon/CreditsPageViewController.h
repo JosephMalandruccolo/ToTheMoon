@@ -9,6 +9,7 @@
 #import "PageViewController.h"
 
 @interface CreditsPageViewController : PageViewController <UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UIImageView *homeBtnView;
 
 
 - (IBAction)homeBtn:(id)sender;

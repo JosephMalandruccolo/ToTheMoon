@@ -7,6 +7,7 @@
 //
 
 #import "CoverPageViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface CoverPageViewController ()
 
@@ -27,6 +28,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self.creditsImageView.layer setCornerRadius:30.0f];
+    [self.creditsImageView.layer setShadowColor:[UIColor grayColor].CGColor];
+    [self.creditsImageView.layer setShadowOpacity:1.0];
+    [self.creditsImageView.layer setShadowRadius:1.0];
+    [self.creditsImageView.layer setShadowOffset:CGSizeMake(1.0, 3.0)];
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,4 +59,8 @@
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:self.model.backgroundFilename]];
 }
 
+- (IBAction)goToCreditsBtn:(id)sender
+{
+    [self jumpToCredits:self];
+}
 @end

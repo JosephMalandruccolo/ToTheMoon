@@ -14,5 +14,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *storyTitle;
 @property (weak, nonatomic) IBOutlet UILabel *storySubtitle;
 @property (weak, nonatomic) IBOutlet UILabel *author;
+@property (weak, nonatomic) IBOutlet UIImageView *creditsImageView;
+
+- (IBAction)goToCreditsBtn:(id)sender;
 
 @end

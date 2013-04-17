@@ -8,6 +8,7 @@
 
 #import "CreditsPageViewController.h"
 #import "CreditCell.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface CreditsPageViewController ()
 
@@ -39,6 +40,11 @@
     [self loadCredits];
     self.tableView.scrollEnabled = NO;
     self.tableView.allowsSelection = NO;
+    [self.homeBtnView.layer setCornerRadius:30.0f];
+    [self.homeBtnView.layer setShadowColor:[UIColor blackColor].CGColor];
+    [self.homeBtnView.layer setShadowOpacity:1.0];
+    [self.homeBtnView.layer setShadowRadius:1.0];
+    [self.homeBtnView.layer setShadowOffset:CGSizeMake(1.0, 3.0)];
 }
 
 - (void)didReceiveMemoryWarning
