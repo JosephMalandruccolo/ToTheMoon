@@ -9,7 +9,12 @@
 #import "TallPageViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
+
+
 @interface TallPageViewController ()
+{
+    AVAudioPlayer *avPlayer;
+}
 
 @end
 
@@ -28,6 +33,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSString *stringPath = [[NSBundle mainBundle] pathForResource:@"rocket" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    [avPlayer setNumberOfLoops:1];
 }
 
 - (void)didReceiveMemoryWarning
@@ -96,5 +105,14 @@
 - (IBAction)hearRocketBtn:(id)sender
 {
     NSLog(@"hearRocketBtn");
+    [avPlayer play];
+    
+    
 }
+
+
+
+
+
+
 @end

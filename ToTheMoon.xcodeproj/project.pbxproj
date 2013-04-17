@@ -27,6 +27,7 @@
 		3F600228171E882D007CBEAE /* rocketSoundBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F600226171E882D007CBEAE /* rocketSoundBtn@2x.png */; };
 		3F60022B171E8C2C007CBEAE /* draggable_moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F600229171E8C2B007CBEAE /* draggable_moon.png */; };
 		3F60022C171E8C2C007CBEAE /* draggable_moon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F60022A171E8C2C007CBEAE /* draggable_moon@2x.png */; };
+		3F60022E171E9204007CBEAE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F60022D171E9203007CBEAE /* AudioToolbox.framework */; };
 		3F79D833170EA73300118D99 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D832170EA73300118D99 /* Icon.png */; };
 		3F79D835170EA73B00118D99 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D834170EA73A00118D99 /* Icon@2x.png */; };
 		3F79D83C170EB14900118D99 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F79D83A170EB14900118D99 /* Default-Landscape.png */; };
@@ -67,6 +68,8 @@
 		3FEF3A2417121A7500FC810D /* astronauts_hero@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF3A2217121A7500FC810D /* astronauts_hero@2x.png */; };
 		3FEF3A2817122D7600FC810D /* TallPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF3A2617122D7600FC810D /* TallPageViewController.m */; };
 		3FEF3A2917122D7600FC810D /* TallPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FEF3A2717122D7600FC810D /* TallPageViewController.xib */; };
+		3FF880EF171E9D8100CCAD3D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF880EE171E9D8100CCAD3D /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		3FF880F1171EA0E200CCAD3D /* rocket.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3FF880F0171EA0E200CCAD3D /* rocket.wav */; };
 		3FF983BF171CEEB500833FDC /* firstSteps.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983BD171CEEB500833FDC /* firstSteps.png */; };
 		3FF983C0171CEEB500833FDC /* firstSteps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983BE171CEEB500833FDC /* firstSteps@2x.png */; };
 		3FF983C2171CF58600833FDC /* reentry.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF983C1171CF58600833FDC /* reentry.png */; };
@@ -99,6 +102,7 @@
 		3F600226171E882D007CBEAE /* rocketSoundBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocketSoundBtn@2x.png"; sourceTree = "<group>"; };
 		3F600229171E8C2B007CBEAE /* draggable_moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draggable_moon.png; sourceTree = "<group>"; };
 		3F60022A171E8C2C007CBEAE /* draggable_moon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draggable_moon@2x.png"; sourceTree = "<group>"; };
+		3F60022D171E9203007CBEAE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3F79D832170EA73300118D99 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		3F79D834170EA73A00118D99 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		3F79D83A170EB14900118D99 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
@@ -150,6 +154,8 @@
 		3FEF3A2517122D7600FC810D /* TallPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TallPageViewController.h; sourceTree = "<group>"; };
 		3FEF3A2617122D7600FC810D /* TallPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TallPageViewController.m; sourceTree = "<group>"; };
 		3FEF3A2717122D7600FC810D /* TallPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TallPageViewController.xib; sourceTree = "<group>"; };
+		3FF880EE171E9D8100CCAD3D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3FF880F0171EA0E200CCAD3D /* rocket.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rocket.wav; sourceTree = "<group>"; };
 		3FF983BD171CEEB500833FDC /* firstSteps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstSteps.png; sourceTree = "<group>"; };
 		3FF983BE171CEEB500833FDC /* firstSteps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstSteps@2x.png"; sourceTree = "<group>"; };
 		3FF983C1171CF58600833FDC /* reentry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reentry.png; sourceTree = "<group>"; };
@@ -163,6 +169,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF880EF171E9D8100CCAD3D /* AVFoundation.framework in Frameworks */,
+				3F60022E171E9204007CBEAE /* AudioToolbox.framework in Frameworks */,
 				3FA70C65170E8B010065F561 /* UIKit.framework in Frameworks */,
 				3FA70C67170E8B010065F561 /* Foundation.framework in Frameworks */,
 				3FA70C69170E8B010065F561 /* CoreGraphics.framework in Frameworks */,
@@ -240,6 +248,8 @@
 		3FA70C63170E8B010065F561 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FF880EE171E9D8100CCAD3D /* AVFoundation.framework */,
+				3F60022D171E9203007CBEAE /* AudioToolbox.framework */,
 				3FA70C64170E8B010065F561 /* UIKit.framework */,
 				3FA70C66170E8B010065F561 /* Foundation.framework */,
 				3FA70C68170E8B010065F561 /* CoreGraphics.framework */,
@@ -250,6 +260,7 @@
 		3FA70C6A170E8B010065F561 /* ToTheMoon */ = {
 			isa = PBXGroup;
 			children = (
+				3FF880F0171EA0E200CCAD3D /* rocket.wav */,
 				3F8462AC170F717000CD6BF2 /* Controller */,
 				3F8462AB170F716B00CD6BF2 /* View */,
 				3F8462AA170F715D00CD6BF2 /* Model */,
@@ -416,6 +427,7 @@
 				3F600228171E882D007CBEAE /* rocketSoundBtn@2x.png in Resources */,
 				3F60022B171E8C2C007CBEAE /* draggable_moon.png in Resources */,
 				3F60022C171E8C2C007CBEAE /* draggable_moon@2x.png in Resources */,
+				3FF880F1171EA0E200CCAD3D /* rocket.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

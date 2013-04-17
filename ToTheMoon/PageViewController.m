@@ -8,6 +8,7 @@
 
 #import "PageViewController.h"
 #import "StoryViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface PageViewController ()
 
@@ -59,6 +60,12 @@
     PageViewController *creditsVC = [storyVC viewControllerAtIndex:[storyVC.storyData count] - 1];
     NSArray *vc = [NSArray arrayWithObject:creditsVC];
     [pageVC setViewControllers:vc direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
+}
+
+
+- (void)readStory:(NSUInteger)pageNumber
+{
+    //  play the right part of the story
 }
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "PageViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface TallPageViewController : PageViewController
 
