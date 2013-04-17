@@ -8,6 +8,8 @@
 
 #import "PageViewController.h"
 
-@interface CreditsPageViewController : PageViewController
+@interface CreditsPageViewController : PageViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UILabel *header;
 
 @end

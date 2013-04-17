@@ -12,6 +12,7 @@
 #import "CoverPageViewController.h"
 #import "TallPageViewController.h"
 #import "MassivePageViewController.h"
+#import "CreditsPageViewController.h"
 
 
 

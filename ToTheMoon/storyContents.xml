@@ -78,4 +78,9 @@
         <heroCaption>President Nixon greets the Apollo 11 crew</heroCaption>
         <backgroundFilename>retina_wood</backgroundFilename>
 	</page>
+    <page>
+		<sequence>9</sequence>
+		<viewControllerClass>CreditsPageViewController</viewControllerClass>
+		<header>Credits and Thanks!</header>
+	</page>
 </pages>

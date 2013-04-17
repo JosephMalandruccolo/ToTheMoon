@@ -139,6 +139,11 @@
         dataSourceViewController.model = [self.storyData objectAtIndex:index];
         return dataSourceViewController;
     }
+    else if ([viewControllerClass isEqualToString:@"CreditsPageViewController"]) {
+        CreditsPageViewController *dataSourceViewController = [[CreditsPageViewController alloc] initWithNibName:@"CreditsPageViewController" bundle:nil];
+        dataSourceViewController.model = [self.storyData objectAtIndex:index];
+        return dataSourceViewController;
+    }
     else return nil;
     
 }
