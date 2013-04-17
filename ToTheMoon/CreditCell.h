@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CreditCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *roleLabel;
 
 @end

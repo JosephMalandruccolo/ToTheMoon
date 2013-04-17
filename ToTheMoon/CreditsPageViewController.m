@@ -38,6 +38,8 @@
     // Do any additional setup after loading the view from its nib.
     [self loadCredits];
     self.header.text = self.model.header;
+    self.tableView.scrollEnabled = NO;
+    self.tableView.allowsSelection = NO;
 }
 
 - (void)didReceiveMemoryWarning
@@ -60,17 +62,28 @@
     NSLog(@"cellForRowAtIndexPath");
     static NSString *cellIdentifier = @"credit cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    CreditCell *cell = (CreditCell*)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
     if (cell == nil) {
         UIViewController *temp = [[UIViewController alloc] initWithNibName:@"CreditCell" bundle:nil];
         cell = (CreditCell *)temp.view;
+        
+        NSDictionary *rowData = [self.credits objectAtIndex:indexPath.row];
+        
+        cell.nameLabel.text = [rowData objectForKey:@"NAME"];
+        cell.roleLabel.text = [rowData objectForKey:@"ROLE"];
     }
     
     
     
     return cell;
     
+}
+
+#pragma mark - table view delegate
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    return @"Credits and Thanks!";
 }
 
 
