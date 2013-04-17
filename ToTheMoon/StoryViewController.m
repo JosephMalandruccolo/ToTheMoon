@@ -10,6 +10,8 @@
 #import "PageModel.h"
 #import "StoryParser.h"
 
+NSString * const kBookmark = @"bookmark";
+
 @interface StoryViewController ()
 
 @end
@@ -25,13 +27,23 @@
 
     [self loadStory];
     
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSNumber *currentPage = [defaults objectForKey:kBookmark];
     
     NSDictionary *options = [NSDictionary dictionaryWithObject:[NSNumber numberWithInteger:UIPageViewControllerSpineLocationMin] forKey:UIPageViewControllerOptionSpineLocationKey];
     self.pageVC = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:options];
     self.pageVC.dataSource = self;
     [[self.pageVC view] setFrame:[[self view] bounds]];
     
-    PageViewController *initialVC = [self viewControllerAtIndex:0];
+    PageViewController *initialVC;
+    if (currentPage) {
+        initialVC = [self viewControllerAtIndex:[currentPage integerValue]];
+    }
+    else {
+        initialVC = [self viewControllerAtIndex:0];
+    }
+    
+    
     NSArray *vc = [NSArray arrayWithObject:initialVC];
     [self.pageVC setViewControllers:vc direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
     
@@ -109,7 +121,10 @@
 - (PageViewController *)viewControllerAtIndex:(NSUInteger)index
 {
     
-    NSLog(@"calling viewControllerAtIndex");
+    NSLog(@"calling viewControllerAtIndex: %lu", (unsigned long)index);
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:[NSNumber numberWithInteger:index] forKey:kBookmark];
+    [defaults synchronize];
     if ((index >= [self.storyData count])) {
         return nil;
     }
